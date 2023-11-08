@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./form.css" />
+    <title>Review Form</title>
+</head>
+<body>
+    <form class="book-review-form" autocomplete="off">
+        <h1>Ratings and Reviews</h1>
+        <label>
+            <span>Your Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Username" required/>
+        </label>
+        <label>
+            <span>Your Rate :</span>
+            <input id="rate" type="number" name="rate" placeholder="Ratings from 1 to 5" min="1" max="5" required/>
+        </label>
+        <label>
+            <span>Your Review :</span>
+            <textarea id="review" name="review" placeholder="Write your review"></textarea>
+        </label> 
+        <label>
+            <input type="submit" class="submit-button" value="Submit" />
+        </label>  
+    </form> 
+        <ul class="list"> 
+    </ul> 
+    <script src="./form.js"></script>
+</body>
+</html>

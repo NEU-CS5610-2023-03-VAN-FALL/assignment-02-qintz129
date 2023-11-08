@@ -1,0 +1,63 @@
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-review-form { 
+    max-width: 600px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    color: #888;
+    border:1px solid #E4E4E4;
+} 
+
+label {
+    display: block;
+    margin-bottom: 10px;
+} 
+
+label>span { 
+    float: left;
+    font-size: 15px;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: #888;
+}  
+
+input[type="text"], input[type="number"], textarea{
+    border: 1px solid #DADADA;
+    height: 30px; 
+    width: 50%;
+    font-size: 13px;   
+    opacity: 0.5;
+} 
+
+input[type="number"]{
+    height: 30px; 
+    width: 30%;
+} 
+
+textarea{
+    height: 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.book-review-form .submit-button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    font-size: 13px; 
+    cursor: pointer;
+}  
+
+.list { 
+    list-style: none;    
+}  
+
+[contentEditable="true"] {
+    border: none; /* Remove the border */ 
+    background-color: yellow;
+}
+
+
